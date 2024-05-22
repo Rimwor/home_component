@@ -15,7 +15,6 @@ import { HousingService } from '../housing.service';
   <section>
     <form>
       <input type="text" placeholder="Filter by city" (keyup)="filterResults($event)" #filter>
-      <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
     </form>
   </section>
   <section class="results">
