@@ -30,7 +30,9 @@ section.listing a {
   padding-left: 20px;
   text-decoration: none;
   color: var(--primary-color);
-  font-family: "Poetsen One", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 section.listing a::after {
   content: "\203A";
