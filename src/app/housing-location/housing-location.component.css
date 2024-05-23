@@ -8,8 +8,9 @@
   padding-bottom: 30px;
 }
 .listing-heading {
-  color: var(--primary-color);
+  color: white;
   padding: 10px 20px 0 20px;
+  font-family: "Major Mono Display", monospace;
 }
 .listing-photo {
   height: 250px;
@@ -19,6 +20,7 @@
 }
 .listing-location {
   padding: 10px 20px 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .listing-location::before {
   content: url("/assets/location-pin.svg") / "";
@@ -28,8 +30,21 @@ section.listing a {
   padding-left: 20px;
   text-decoration: none;
   color: var(--primary-color);
+  font-family: "Poetsen One", sans-serif;
 }
 section.listing a::after {
   content: "\203A";
   margin-left: 5px;
+}
+
+.major-mono-display-regular {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
